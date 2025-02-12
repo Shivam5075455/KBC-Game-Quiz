@@ -51,68 +51,68 @@ const questions = [
     },
     // Q5
     {
-        question: "Who is known as the Father of the Nation in India?",
-        options: ["Jawaharlan Nehru", "Mahatma Gandhi", "Subhas Changra Bose", "Chandra Sekhar Azad"],
+        question: "Which of the following countries is the world's largest producer of saffron?",
+        options: ["Spain", "Iran", "India", "Greece"],
         answer: 1
     },
     //Q6
     {
-        question:"What is the capitat of France?",
-        options: ["Berlin","Madrid","Paris","Lisbon"],
+        question:"Which god is also known as Gauri Nandan?",
+        options: ["Agni","Indra","Ganesha","Hanuman"],
         answer:2
     },
     //Q7
     {
-        question:"Which planet is known as the Red Planet?",
-        options:["Earth","Mars","Jupiter","Saturn"],
+        question:"What does not grow on tree according to a popular Hindi saying?",
+        options:["Flowers","MOney","Leaves","Fruits"],
         answer:1
     },
     //Q8
     {
-        question:"Which is the largest mammal?",
-        options:["Elephant","Blue Whale","Giraffe","Polar Bear"],
+        question:"Which city is known as the Pink City of India?",
+        options:["Banglore","Jaipur","Maysore","Kochi"],
         answer:1
     },
     //Q9
     {
-        question:"What is the capitat of France?",
-        options: ["Berlin","Madrid","Paris","Lisbon"],
+        question:"Who wrote India's National Anthem?",
+        options: ["Lal Bahadur Shastri","Chetan Bhagat","Rabindranath Tagore","RK Narayan"],
         answer:2
     },
     //Q10
     {
-        question: "Who is known as the Father of the Nation in India?",
-        options: ["Jawaharlan Nehru", "Mahatma Gandhi", "Subhas Changra Bose", "Chandra Sekhar Azad"],
+        question: "How many major religions are there in India?",
+        options: ["7", "6", "8", "9"],
         answer: 1
     },
     // Q11
     {
-        question:"What is the capitat of France?",
-        options: ["Berlin","Madrid","Paris","Lisbon"],
+        question:"When is the National Hindi Diwas celebrated?",
+        options: ["13 September","14 July","14 September","15 August"],
         answer:2
     },
     //Q12
     {
-        question:"Which planet is known as the Red Planet?",
-        options:["Earth","Mars","Jupiter","Saturn"],
+        question:"Which country is the largest producer of coffee in the world?",
+        options:["Colombia","Brazil","Vietnam","Ethiopia"],
         answer:1
     },
     //Q13
     {
-        question: "Who is known as the Father of the Nation in India?",
-        options: ["Jawaharlan Nehru", "Mahatma Gandhi", "Subhas Changra Bose", "Chandra Sekhar Azad"],
+        question: "Where is India Gate located?",
+        options: ["Agra", "New Delhi", "Mumbai", "Pujab"],
         answer: 1
     },
     //Q14
     {
-        question:"What is the capitat of France?",
-        options: ["Berlin","Madrid","Paris","Lisbon"],
+        question:"Who wrote Vande Mataram?",
+        options: ["Sarat Chandra Chattopadhyay","Rabindranath Tagore","Bankim Chandra Chatterjee","Ishwar Chandra Vidyasagar"],
         answer:2
     },
     //Q15
     {
-        question:"Which planet is known as the Red Planet?",
-        options:["Earth","Mars","Jupiter","Saturn"],
+        question:"Which one of the following places is famous for the Great Vishnu Temple?",
+        options:["Bordubar, Indonesia","Ankorvat, Cambodia","Panja Sahib, Pakistan","Bamiyan, Afghanistan"],
         answer:1
     }
 
@@ -179,6 +179,10 @@ function loadQuestions(){
     timeInterval = 30;
     interval = setInterval(timer,1000);
 }
+
+
+
+
 
 function timer(){
     if(timeInterval==0){
